@@ -1,0 +1,50 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('vapor.jpg');
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;   
+    color: #eee;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: rgba(30, 30, 30, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#messages {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #555;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#name-input{
+    background-color: rgba(0, 0, 0, 0.3);
+    color:#eee
+}
+#message-input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #eee;
+}
+#file-input {
+    margin-bottom: 10px;
+    
+}
+#send-btn {
+    padding: 10px 20px;
+    background-color: rgba(200, 200, 200, 0.8);
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
